@@ -6,11 +6,15 @@ class Calculator {
     ArrayList<String> operators = new ArrayList<String>();
     ArrayList<Double> nums = new ArrayList<Double>();
     Double results;
+    
     public Calculator (){
 
     }
-    public void performOperation(Double dub){
+  public void performOperation(double dub){
         nums.add(dub);
+    }
+    public void performOperation(int dub){
+        nums.add((double)dub);
     }
     public void performOperation(String str){
         if (str != "="){

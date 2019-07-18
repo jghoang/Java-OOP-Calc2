@@ -10,7 +10,7 @@ public class CalculatorTest {
 		c.performOperation("+");
 		c.performOperation(5.2);
 		c.performOperation("*");
-		c.performOperation((double) 10);
+		c.performOperation(10);
 		c.performOperation("=");
 		c.getResults();
 	}

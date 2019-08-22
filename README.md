@@ -19,14 +19,17 @@ The client has requested a change in spec: they need the calculator to process m
 where the result would be 62.5. They want to be able to do this for an arbitrary number of numbers, as well as add in the capability to multiply and divide. You can assume that all inputs will be valid. Notice that the calculator must correctly perform the order of operations.
 
 Objectives:
+
 ● Practice classes and objects.
 
 ● Implement a calculator in java.
 
 Tasks:
+
 ● Create the Calculator bean that will allow for the user to set operands and operations, then perform them and get the results.
 
 ● Have logic for adding, subtracting, dividing, and multiplication.
 
 Notes:
+
 ● You may want to use helper boolean properties to indicate if an operation or operand has been set or used yet.
